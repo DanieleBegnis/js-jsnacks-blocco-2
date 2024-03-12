@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-#red {
+.red {
     color: red;
 }
 
-#green {
+.green {
     color: green;
 }
