@@ -23,6 +23,13 @@ for(let i = 0; i < numbersArray.length; i++) {
         </div>
         `;
         oddNumbersContainer.innerHTML += numberOdd;
+    } else {
+        const numberEven = `
+        <div class="green">
+            ${thisPath}
+        </div>
+        `;
+        evenNumbersContainer.innerHTML += numberEven;
     }
 }
 
